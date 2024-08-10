@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); 
+            width: 100vw; 
+            box-sizing: border-box;
+            padding: 0; 
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            grid-template-rows: repeat(3, 1fr); 
+            gap: 0;
+            width: 600px; 
+            height: 450px;
+        }
+
+        
+        .grid-container img {
+            width: 100%; 
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        
+        h1 {
+            color: rgb(51, 156, 209);
+            margin-top: 10; 
+        }
+
+        p {
+            margin: 0; 
+            color: aliceblue;
+        }
+
+        
+        .center-container {
+            margin-top: 10; 
+        }
+        .logo-container img {
+            border-radius: 50%;
+        }
+        .submit_button{
+            margin-top: 1.5cm;
+            margin-left: 18.5cm;
+            
+        }
+        .buttons-container {
+            width: 100%;
+            background-color: rgba(220, 220, 220, 0.522);
+            position: fixed;
+            height: 60px; 
+            overflow: auto;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        
+        .buttons-container button {
+            background-color: white;
+            color: rgb(29, 85, 120);
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+
+        }
+
+        .buttons-container button:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Buttons -->
+    <div class="buttons-container">
+        <button>Intro</button>
+        <button>News</button>
+        <button>Gallery</button>
+        <button>Contact</button>
+    </div>
+
+    <!-- Logo and Intro Section -->
+    <div class="logo-container">
+        <img src="logo1.png" alt="Lumino Logo">
+        <h1>Lumino</h1>
+        <p><b>Free Bootstrap 4.0 Website Template</b></p>
+    </div>
+
+    <div class="submit_button">
+        <button class="button">Begin</button>
+    </div>
+<br><br><br><br><br><br><br><br>
+    <!-- Gallery Section -->
+    <html lang="en">
+    
+    <body>
+        <div class="container">
+            <div class="gallery">
+                <div class="image-card">
+                    <img src="https://www.shutterstock.com/image-photo/mountains-covered-snow-dark-cloudy-600nw-1173697579.jpg" alt="Descriptive text about the image">
+                    <div class="description">
+                        <h2>Nulla molestie euismod</h2><br>
+                        <p style="color:black">Lumino theme is a Bootstap 4.0 mobile compatible layout for your website. Check "columns" page for one, two, three columns and tables.</p>
+                        <a href="#" class="read-button">Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="image-card reverse">
+                    <img src="https://akshitphotography.com/wp-content/uploads/2021/08/Nature-Photography-105.jpg" alt="Descriptive text about the image">
+                    <div class="description">
+                        <h2>Nulla molestie euismod</h2><br>
+                        <p style="color:black">You may download, modify and use this template as you wish. Lumino HTML5 template is a fully responsible mobile ready for any kind of website.</p>
+                        <a href="#" class="read-button">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="image-card">
+                    <img src="https://cdn.pixabay.com/photo/2020/07/03/10/28/waterfall-5365926_640.jpg" alt="Descriptive text about the image">
+                    <div class="description">
+                        <h2>Nulla molestie euismod</h2><br>
+                        <p style="color:black">Credit goes to Unsplash for images used in this website template. Nulla sit amet tristique lacus. Etiam blandit ex vitae mauris gravida.</p>
+                        <a href="#" class="read-button">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<br><br><br>
+    <!-- Centered Grid Section -->
+    <h1><center>Lorem ipsum dolor sit amet</center></h1><br>
+    <p><center>Etiam at rhoncus nisl. Nunc rutrum ac ante euismod cursus.</center></p>
+    <p><center>Suspendisse imperdiet feugiat massa nec iaculis</center></p><br>
+
+    <div class="center-container">
+        <div class="grid-container">
+            <img src="img1.png" alt="Image1">
+            <img src="img2.png" alt="Image2">
+            <img src="img3.png" alt="Image3">
+            <img src="new4.png" alt="Image4">
+            <img src="img5.png" alt="Image5">
+            <img src="img6.png" alt="Image6">
+            <img src="img7.png" alt="Image7">
+            <img src="new5.png" alt="Image8">
+            <img src="new3.jpg" alt="Image9">
+            <img src="img10.jpg" alt="Image10">
+            <img src="img11.png" alt="Image11">
+            <img src="img12.png" alt="Image12">
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Subject"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Message" style="height: 200px;"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Etiam at rhoncus nisl</h3>
+                    <p>Nunc rutrum ac ante euismod cursus.</p>
+                    <p>Suspendisse imperdiet feugiat massa nec iaculis.</p>
+                    <p>Tel: 010-020-0340</p>
+                    <p>E-mail: info@company.com</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <br>
+            <br>
+             
+                <p style="color:black">Copyright @ 2016 Company Name | Design: Lumino</p>
+        </footer>
+    </section>
+</body>
+</html>
